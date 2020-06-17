@@ -1,0 +1,24 @@
+name: ComplexFood
+version: ${project.version}
+main: com.miketheshadow.complexfood.ComplexFood
+api-version: 1.13
+depend: [ComplexProficiencies]
+authors: [MikeTheShadow]
+description: A simple food plugin for bukkit
+website: http://coldonestudios.ca
+commands:
+  foodexample:
+    description: Gives you an example food
+    usage: /<examplefood>
+    permission: ComplexFood.admin
+    permission-message: You don't have ComplexFood.admin permission
+  potionlist:
+    description: Lists effecs
+    usage: /<potionlist>
+    permission: ComplexFood.admin
+    permission-message: You don't have ComplexFood.admin permission
+  foodreset:
+    description: resets food
+    usage: /<potionlist>
+    permission: ComplexFood.admin
+    permission-message: You don't have ComplexFood.admin permission
